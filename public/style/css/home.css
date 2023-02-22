@@ -1,0 +1,60 @@
+
+@font-face {
+    font-family: 'Source_Code';
+    src: url('/fonts/SC_Variable.ttf');
+    font-weight: large;
+    font-style: normal;
+    margin-left: 4.%;
+    margin: auto;
+
+}
+
+/* BY ELEMENT */
+h1{
+    font-family: 'Source_Code';
+    color: indigo;
+    border-color: black;
+}
+
+/* BY ID */
+#parent {
+    border: 1px solid;
+    width: 20vh;
+    height: 20vh;
+    padding: 20px;
+    /* overflow: hidden; */
+    display: flex;
+    text-align: center;
+  }
+
+  #nav {
+    border: 3cm;
+    border: black;
+    padding: 0;
+    margin: 0;
+  }
+#containedObj  { 
+    max-width: inherit;
+    max-height: inherit;
+    height: inherit;
+    width: inherit;
+    object-fit: cover
+}
+
+/* BY CLASS */
+.dark{
+    background-color: #222;
+    color: #e6e6e6;
+}
+
+.wrapper {
+    text-align: center;
+    display: flex;
+    height: 10cm;
+    width: auto;
+}
+
+.horizontal{
+    float: left;
+    clear: none;
+}
